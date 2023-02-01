@@ -1,0 +1,99 @@
+{
+	// 表示有多少页面
+	// pages数组中第一项表示应用启动页
+	"pages": [{
+			"path": "pages/home/index",
+			"style": {
+				"enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+			}
+		}, {
+			"path": "pages/statistics/index",
+			"style": {
+				"navigationBarTitleText": "统计",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/message/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/me/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/attendance/index",
+			"style": {
+				"navigationBarTitleText": "考勤管理",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/qualityEvaluation/index",
+			"style": {
+				"navigationBarTitleText": "质量评定",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/logMonthlyRpt/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}, {
+			"path": "pages/addrBook/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "mj",
+		"navigationBarBackgroundColor": "#ffffff",
+		"backgroundColor": "#f7f8fa"
+	},
+	"tabBar": {
+		"color": "#eaebef",
+		"selectedColor": "#2358fe",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"iconWidth": "24px",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/home/index",
+				"iconPath": "./static/icon/icon_home-n.png",
+				"selectedIconPath": "./static/icon/icon_home-s.png"
+			},
+			{
+				"text": "统计",
+				"pagePath": "pages/statistics/index",
+				"iconPath": "./static/icon/icon_tj_n.png",
+				"selectedIconPath": "./static/icon/icon_tj_s.png"
+			},
+			{
+				"text": "消息",
+				"pagePath": "pages/message/index",
+				"iconPath": "./static/icon/icon_message-n.png",
+				"selectedIconPath": "./static/icon/icon_message-s.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/me/index",
+				"iconPath": "./static/icon/icon_me_n.png",
+				"selectedIconPath": "./static/icon/icon_me_s.png"
+			}
+		]
+	}
+}

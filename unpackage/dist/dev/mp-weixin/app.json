@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/home/index",
+    "pages/statistics/index",
+    "pages/message/index",
+    "pages/me/index",
+    "pages/attendance/index",
+    "pages/qualityEvaluation/index",
+    "pages/logMonthlyRpt/index",
+    "pages/addrBook/index",
+    "pages/login/index"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "mj",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f7f8fa"
+  },
+  "tabBar": {
+    "color": "#eaebef",
+    "selectedColor": "#2358fe",
+    "borderStyle": "black",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/index",
+        "iconPath": "./static/icon/icon_home-n.png",
+        "selectedIconPath": "./static/icon/icon_home-s.png"
+      },
+      {
+        "text": "统计",
+        "pagePath": "pages/statistics/index",
+        "iconPath": "./static/icon/icon_tj_n.png",
+        "selectedIconPath": "./static/icon/icon_tj_s.png"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/message/index",
+        "iconPath": "./static/icon/icon_message-n.png",
+        "selectedIconPath": "./static/icon/icon_message-s.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/index",
+        "iconPath": "./static/icon/icon_me_n.png",
+        "selectedIconPath": "./static/icon/icon_me_s.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

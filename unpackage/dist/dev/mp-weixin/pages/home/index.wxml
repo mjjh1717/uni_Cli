@@ -1,0 +1,1 @@
+<view class="{{['homePage', d]}}"><view style="{{'height:' + a}}" class="status"></view><view class="homePage_header">MOUMOUMOU工程</view><view>{{b}}</view><button bindtap="{{c}}">111111</button></view>
